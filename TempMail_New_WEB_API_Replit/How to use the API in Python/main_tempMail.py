@@ -2,8 +2,8 @@ import requests
 import time
 
 # Base URL of the API
-API_MAIN_DOMAIN = "https://9a627090-5085-4759-a1ac-4b0a9d38a82b-00-1jysvouo1hcui.picard.replit.dev/"
-BASE_URL = f"{API_MAIN_DOMAIN}api"
+API_MAIN_DOMAIN = "https://mailtemp-production.up.railway.app/"   #URL of MailTemp Website
+BASE_URL = f"{API_MAIN_DOMAIN}api"    #In this case: https://mailtemp-production.up.railway.app/api
 
 def create_temp_email():
     """Create a temporary email address"""
